@@ -1,0 +1,129 @@
+/* Reset CSS */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+li:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Header */
+header{
+    background-color: #0e78be;
+    color: #ffffff;
+    height: 90px;
+}
+
+.header-logo{
+    float: left;
+    font-size: 36px;
+    padding: 20px 40px;
+}
+
+.header-nav li{
+    float: left;
+    padding: 35px 20px;
+}
+
+/* MAIN / CONTENT*/
+main{
+    padding: 100px 90px;
+}
+
+.main-container h1{
+    font-size: 85px;
+}
+
+.main-container span{
+    color: #d40909;
+}
+
+.main-container h2{
+    font-size: 60px;
+}
+
+/*Bagian Contents*/
+.contents{
+    height: 500px;
+    margin-top: 100px;
+}
+
+.section-title{
+    border-bottom: 2px solid #cecece;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+}
+
+.contents-item{
+    float: left;
+    margin-right: 40px;
+}
+
+.contents-img{
+    width: 220px;
+    height: 220px;
+    padding: 10px;
+    background-color: #d40909;
+}
+
+.contents-img.htmlcss{
+    background-color: rgb(189, 179, 179) ;
+}
+
+.contents-img.php{
+    background-color: rgb(0, 128, 0) ;
+}
+
+.contents-img.java{
+    background-color:orange ;
+}
+
+.contents-img.python{
+    background-color: red;
+}
+
+.contents-img img{
+    width: 220px;
+}
+
+.contents-item p{
+    font-size: 24px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+.contact{
+    padding-top: 400px;
+}
+
+input,textarea{
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #cecece;
+}
+
+.contact-submit{
+    background-color:green;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.txt-red{
+    color: red;
+}
+
+
