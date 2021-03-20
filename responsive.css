@@ -1,0 +1,25 @@
+/* Dekstop ke atas */
+@media (min-width : 1000px){
+    .main-container h3{
+        color:purple ;
+    }
+}
+
+/* Tablet */
+@media (max-width :1000px){
+    .main-container h1{
+        color: green;
+    }
+}
+
+/* HP */
+@media (max-width : 640px){
+    .main-container h1{
+        color: red;
+    }
+
+    input,textarea{
+        width: 100%;
+    }
+}
+
